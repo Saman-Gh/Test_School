@@ -46,8 +46,13 @@ function addClassToSchool (schoolName, className){
     }
     else{
         return "There is no such a school"
-    }    
+    }
 }
 
-console.log(addClassToSchool("Chines Independent", "business"));
+let newClassAddress = "business";
+let schoolNameAddress = "Chinese Independent";
+
+addClassToSchool(schoolNameAddress, newClassAddress);
+console.log(malaysiaSchools);
+
 
